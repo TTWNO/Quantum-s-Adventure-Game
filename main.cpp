@@ -2,8 +2,14 @@
 
 using namespace std;
 
-class PlayerName{
+class Player{
+
+public:
     string pname;
+    string prace;
+    int page;
+    int phealth;
+    string pprofession;
 
 public:
     PlayerName()
